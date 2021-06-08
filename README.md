@@ -15,6 +15,9 @@ A simple library to create a tic tac toe game via a networt socket with python
     3. socket
 
 # Usage:
+
+-> Put both files in same directory (TicTacToe.py and tic_lib.py)
+
 -> Start the game twice on your computer or play with two computer. Just click on one side Create Game and on the other side Join Game
 
 -> Type the ip which is shown on the Create Game side in the entry of the Join Game side and click Join
