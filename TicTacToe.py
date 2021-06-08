@@ -1,5 +1,5 @@
 """
-    Description: Simple Network tictactoe game
+    Description: Simple Network tictactoe game (it only is to test the library (tic_lib.py))
 """
 import tkinter as tk
 import threading
@@ -12,8 +12,6 @@ root.resizable(0, 0)
 
 lib = tic_lib.PlayGame(root, 399, 'white', 'white')
 
-
-# erst im nachhinein erstellen -> zuerst zu den Buttons
 
 def destroy_buttons():
     """
@@ -45,7 +43,6 @@ def create_client():
     : client a client socket and wait for connection to the sever
     """
 
-    # write this function after creating the conntinue button
     def continue_button_f():
         """
 
@@ -69,7 +66,6 @@ def create_client():
     lib.game_canvas.pack()
 
 
-# create this buttons first
 button_create_game = tk.Button(root, text='Create Game', font=('Sans', 12), bg='red', width=30,
                                command=create_sever)
 button_create_game.pack(fill='x')
