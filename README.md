@@ -24,5 +24,7 @@ A simple library to create a tic tac toe game via a networt socket with python
 
 -> If you had done it correctly the game will automatically apear
 
+-> Link to Youtube Totorial: https://youtu.be/zGLgz8-77TQ
+
 
       
